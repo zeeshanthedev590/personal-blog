@@ -20,7 +20,7 @@ colorPalette = 'catpuccin'
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
-I'm Zeeshan Khalid, a passionate student and aspiring developer from Pakistan. Currently, I'm pursuing my A-levels with a focus on computer science and dreaming of a future at MIT. Beyond coding, I'm deeply fascinated by the art of storytelling through filmmaking and photography. I aim to merge technical expertise with creative expression, creating impactful projects that resonate with audiences. Join me on my journey as I document my progress through devlogs, vlogs, and more.
+I'm Zeeshan Khalid, a student and aspiring developer from Pakistan. Currently, I'm pursuing my A-levels with a focus on computer science and dreaming of a future at MIT. Beyond coding, I'm deeply fascinated by the art of storytelling through filmmaking and photography. I aim to merge technical expertise with creative expression, creating impactful projects that resonate with audiences. Join me on my journey as I document my progress through devlogs, vlogs, and more.
 """
 
 # Collection to display on home
