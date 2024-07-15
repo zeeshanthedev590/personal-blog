@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog"
-date: "2023-11-12"
+date: "2024-07-1"
 summary: "A place where i can document my journey and hobbies and much more"
 toc: true
 readTime: true
