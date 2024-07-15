@@ -1,7 +1,7 @@
 ---
 title: "Coming up with project Ideas"
 date: "2024-07-15"
-summary: ""
+summary: "On the quest to find some project ideas for making something great possibly the next big thing"
 toc: true
 readTime: true
 autonumber: true
