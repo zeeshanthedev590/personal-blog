@@ -12,7 +12,7 @@ hideBackToTop: false
 ---
 So for the past some day i have been trying to find some project ideas. In my mind the project should be something that people around me can use and especially me.
 
-Given that i went over multiple sources to find project ideas include product hunt and the 
+Given that i went over multiple sources to find project ideas including product hunt and the 
 [ProjectBook](https://projectbook.code.brettchalupa.com/) (this helped alot). After going through these sources i was got three ideas 
 
 1. A social media website
