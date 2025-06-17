@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeeshan Khalid | Portfolio</title>
+    <style>
+      :root {
+        --primary: #7e5bef;
+        --background-start: #f6f0ff;
+        --background-end: #e9e1ff;
+        --text: #1a1a1a;
+        --muted: #555;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(
+          135deg,
+          var(--background-start),
+          var(--background-end)
+        );
+        color: var(--text);
+        line-height: 1.6;
+        padding: 4rem 2rem;
+        max-width: 800px;
+        margin: auto;
+        border-radius: 12px;
+      }
+
+      h1 {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+        color: var(--primary);
+      }
+
+      h2 {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        color: var(--primary);
+        font-size: 1.8rem;
+      }
+
+      p {
+        color: var(--muted);
+        margin-bottom: 1rem;
+        font-size: 1rem;
+      }
+
+      .project,
+      .skill {
+        margin-bottom: 2rem;
+      }
+
+      .project a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+
+      .project a:hover {
+        text-decoration: underline;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .skill li {
+        background: rgba(126, 91, 239, 0.1);
+        color: var(--text);
+        display: inline-block;
+        margin: 6px 6px 6px 0;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 0.95rem;
+      }
+
+      footer {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+      .demo-link {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 0.75rem;
+        color: var(--muted);
+        font-weight: normal;
+        opacity: 0.8;
+      }
+
+      .demo-link:hover {
+        color: var(--primary);
+        text-decoration: underline;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Zeeshan Khalid</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nulla
+      at sapien commodo suscipit. Software developer, language designer, systems
+      enthusiast.
+    </p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+      <a href="#">Solomon Islands Disaster Management System</a>
+      <p>
+        Internship project: Developed a real-time web platform to help citizens
+        report emergencies and communicate with authorities during natural
+        disasters in the Solomon Islands. Built under supervision, deployed for
+        internal use.
+      </p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/zeeshanthedev590/Methane" target="_blank"
+        >Methane</a
+      >
+      <p>
+        Experimental programming language focusing on minimalism and expression.
+      </p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/zeeshanthedev590/ZOSL" target="_blank"
+        >ZOSL</a
+      >
+      <p>
+        A simple scripting language designed for ZOSLdb and related tools.<br />
+        <a class="demo-link" href="https://zosl.vercel.app" target="_blank"
+          >Try ZOSL Online</a
+        >
+      </p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/zeeshanthedev590/ZOSLdb" target="_blank"
+        >ZOSLdb</a
+      >
+      <p>
+        Lightweight database implementation for structured data using ZOSL.<br />
+        <a class="demo-link" href="https://zosldb.vercel.app" target="_blank"
+          >Try ZOSLdb Online</a
+        >
+      </p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/zeeshanthedev590/Zacket" target="_blank"
+        >Zacket</a
+      >
+      <p>Packet-level networking experiments for custom protocol testing.</p>
+    </div>
+
+    <div class="project">
+      <a href="https://github.com/zeeshanthedev590/DrawZosl" target="_blank"
+        >DrawZosl</a
+      >
+      <p>
+        A graphical utility for visualizing or creating ZOSL-based structures.
+      </p>
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="skill">
+      <ul>
+        <li>Programming Languages: C, C++, Rust, Python</li>
+        <li>Systems Programming</li>
+        <li>Compiler Design</li>
+        <li>Custom Language Development</li>
+        <li>Low-Level Networking</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Email: lorem@ipsum.dev</p>
+    <p>
+      GitHub:
+      <a href="https://github.com/zeeshanthedev590" target="_blank"
+        >@zeeshanthedev590</a
+      >
+    </p>
+
+    <footer>&copy; 2025 Zeeshan Khalid. All rights reserved.</footer>
+  </body>
+</html>
